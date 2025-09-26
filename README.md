@@ -27,7 +27,29 @@ A modern social media platform built with Streamlit and MySQL.
 
 ## ⚙️ Installation
 
-1. **Clone the repository**
+1. Clone the repository**
    ```bash
    git clone https://github.com/yourusername/social-media-app.git
    cd social-media-app
+
+2. Set up the database
+   ```bash
+   mysql -u root -p < database_schema.sql
+
+3. Install Python dependencies
+   ```bash
+   pip install -r requirements.txt
+
+4. Configure database connection
+   Update the database credentials in app.py:
+   ```python
+   self.connection = mysql.connector.connect(
+       host='localhost',
+       database='social_media_db',
+       user='root',
+       password='your_password'
+   )
+
+5. Run the application
+   ```bash
+   streamlit run app.py
