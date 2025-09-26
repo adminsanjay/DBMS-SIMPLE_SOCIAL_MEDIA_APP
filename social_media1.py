@@ -16,7 +16,7 @@ class SocialMediaApp:
                 host='localhost',
                 database='social_media_db',
                 user='root',
-                password='sanjay05'
+                password='your_password'
             )
 
             if self.connection.is_connected():
