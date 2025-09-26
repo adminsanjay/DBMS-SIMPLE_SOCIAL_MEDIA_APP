@@ -27,7 +27,7 @@ A modern social media platform built with Streamlit and MySQL.
 
 ## ⚙️ Installation
 
-1. Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/social-media-app.git
    cd social-media-app
